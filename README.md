@@ -82,7 +82,7 @@ The Jedi Master requested you to make a dashboard-like UI showing a list of Sith
 - Run the server like this: `cd server` then `npm install` (just once) then `npm start`.
 - Remember to use `styles.css` in your `index.html` solution.
 - Your solution should be executable by opening `submissions/username/index.html` in the browser with no build steps.
-- Send a pull request
+- Send a pull request only when you consider it done. Don't submit Work-In-Progress PRs.
 
 ### Criteria
 
@@ -98,3 +98,11 @@ There is no "winner", the objective is just to **solve the problem by building t
 ### Purpose
 
 This challenge is meant to be solved with Flux or some variation of this architecture, such as architectures with the single state tree and "actions" (Om, Redux, etc). It's my personal belief that *Flux does not provide an elegant way of coordinating multiple async data sources*, but more experienced Flux users might disagree. This challenge's requirements were tailored to touch Flux's weakest spots, these are not typical web app requirements. On the other hand, analytics and sensors dashboard UIs resemble this challenge a lot. That said, I am open and curious to be proven wrong about Flux. I'm curious about every solution's pros and cons, and I would prefer to discuss over evidence/artifacts instead of with platitude arguments.
+
+### Trying out submissions
+
+```
+cd server
+npm start
+```
+Open http://localhost:3000/s/ in your browser.
